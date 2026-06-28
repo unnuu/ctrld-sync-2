@@ -2,7 +2,7 @@ name: Check for new release
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Every 24 hours
+    - cron: "30 0 * * *" # Every 24 hours
   workflow_dispatch:
 
 permissions:
